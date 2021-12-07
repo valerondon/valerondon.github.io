@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="img/volga.png" rel="shortcut icon" type="image/x-icon">
+    <link href="volga.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,800;1,200;1,300;1,800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">  
+    <title>ФК "Волга"</title>
+</head>
+<body class="body">
+  <div class="wrapper">
+    <header class="header" id="header">
+      <div class="header__container  _container">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <div class="container-fluid">
+            <a class="volga-brand"  href="img.html"><img width="30px" src="img/volga.png"></a>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="volga.html">Главная</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="history.html">История клуба</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="photo.html"> Регистрация</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Команда
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="sostav.html">Состав</a></li>
+                    <li><a class="dropdown-item" href="trener.html">Тренерский штаб</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav> 
+      </div>
+    </header>
+    <main class="page">
+      <h1 id="h1">Регистрация на сайте</h1>
+    
+      <div id="form">
+              <form action="http://g06u33.nn2000.info/cgi-bin/form_action.py" method="get" >
+                <div class="mb-3">
+                  <label for="exampleInputName1" class="form-label">Имя</label>
+                  <input type="name" name="name" class="form-control" id="name">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputSurname1" class="form-label">Фамилия</label>
+                  <input type="surname" name="surname" class="form-control" id="surname">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Адрес эл. почты</label>
+                  <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp">
+                  <div id="emai"  class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputTel1" class="form-label">Ном. телефона</label>
+                  <input type="tel"  name="tel" class="form-control" id="exampleInputTeld1" >
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Запомнить меня </label>
+                </div>
+                <div  id="div40" class="mb-3">
+                  <label  class="form-label">Название файла:</label>
+                  <input type="text" class="form-contol" name="000_file_name" value="file.txt">
+                </div>
+                <div id="div40" class="mb-3">
+                  <label  class="form-label">Тип записи в файл:</label><select name="010_mode">
+                    <OPTION value="a">a - дозаписать в файл</OPTION> 
+                    <OPTION value="w">w - очисить файл и записать в файл</OPTION> 
+                   </select>
+                </div>
+                
+                
+                <button type="submit" class="btn btn-primary">Регистрация</button>
+                <button type="reset" class="btn btn-primary">Удалить</button>
+              </form>
+              </div>
+            
+       
+   
+  </main>
+  
+  
+
+  
+  
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/9f44cd0d5c.js" crossorigin="anonymous"></script>
+  </body>
+</html>
